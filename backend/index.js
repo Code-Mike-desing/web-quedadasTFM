@@ -37,3 +37,7 @@ app.listen(3000, () => {
 
 const quedadasRoutes = require("./routes/quedadas");
 app.use("/api/quedadas", quedadasRoutes);
+
+app.use("/api/usuarios", require("./routes/auth"));
+app.use("/api/mensajes", require("./routes/mensajes"));
+app.use("/api/quedadas", require("./routes/quedadas"));

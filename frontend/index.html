@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Queda conmigo</title>
+    <link rel="stylesheet" href="../frontend/sty/estilos.css"/>
+    <script src="../frontend/js/script.js"></script>
+</head>
+<body>
+
+      <header>
+    <h1 class="titulo">MiRed</h1>
+    <div class="botones-header">
+      <button id="btnSuscribirse">Suscribirse</button>
+      <button id="btnIniciarSesion">Iniciar sesión</button>
+    </div>
+  </header>
+
+  <!-- Modal -->
+  <div id="formularioModal" class="modal oculto">
+    <div class="contenido-modal">
+      <span id="cerrarModal" class="cerrar">&times;</span>
+
+      <form id="formularioRegistro">
+        <h2>Crear cuenta</h2>
+        <input type="text" id="nombre" placeholder="Nombre" required />
+        <input type="email" id="correo" placeholder="Correo electrónico" required />
+        <input type="password" id="contrasena" placeholder="Contraseña" required />
+        <button type="submit">Registrarse</button>
+      </form>
+    </div>
+  </div>
+    
+</body>
+</html>

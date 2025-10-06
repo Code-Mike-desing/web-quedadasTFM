@@ -1,2 +1,2 @@
 MONGO_URI=mongodb+srv://migue_db_user:Monchito*36@clustertfm.cqibpuw.mongodb.net/
-PORT=5000
+PORT=3000
