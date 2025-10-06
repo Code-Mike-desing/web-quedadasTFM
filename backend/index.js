@@ -34,3 +34,6 @@ app.use('/api', rutaAuth);  // Acceso desde /api/registro
 app.listen(3000, () => {
   console.log('Servidor corriendo en puerto 3000');
 });
+
+const quedadasRoutes = require("./routes/quedadas");
+app.use("/api/quedadas", quedadasRoutes);
