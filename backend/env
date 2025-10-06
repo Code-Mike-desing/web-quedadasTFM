@@ -1,1 +1,2 @@
-MONGO_URI=mongodb+srv://<usuario>:<contraseña>@<cluster>.mongodb.net/<nombreBaseDatos>
+MONGO_URI=mongodb+srv://migue_db_user:Monchito*36@clustertfm.cqibpuw.mongodb.net/
+PORT=5000
